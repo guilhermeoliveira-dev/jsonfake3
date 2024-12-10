@@ -1,7 +1,7 @@
 {    
     "funcionarios": [
         {"id": 4, "nome": "usuario01", "email": "usuario01@email.com", "senha": "1", "cpf": "11111111111", "telefone": "1111-1111", "idEndereco": 4, "dataAdmissao": "11/11/2014", "idCargo": 1, "salario": 1050.0, "expediente": "manha", "idFarmacia": 1},
-        {"id": 5, "nome": "usuario02", "email": "usuario02@email.com", "senha": "1", "cpf": "11111111111", "telefone": "2222-2222", "idEndereco": 5, "dataAdmissao": "11/11/2014", "idCargo": 2, "salario": 2010.0, "expediente": "tarde", "idFarmacia": 2},
-        {"id": 6, "nome": "usuario03", "email": "usuario03@email.com", "senha": "1", "cpf": "11111111111", "telefone": "3333-3333", "idEndereco": 6, "dataAdmissao": "11/11/2014", "idCargo": 3, "salario": 1450.0, "expediente": "noite", "idFarmacia": 3}
+        {"id": 5, "nome": "usuario02", "email": "usuario02@email.com", "senha": "1", "cpf": "11112111111", "telefone": "2222-2222", "idEndereco": 5, "dataAdmissao": "11/11/2014", "idCargo": 2, "salario": 2010.0, "expediente": "tarde", "idFarmacia": 2},
+        {"id": 6, "nome": "usuario03", "email": "usuario03@email.com", "senha": "1", "cpf": "11327111111", "telefone": "3333-3333", "idEndereco": 6, "dataAdmissao": "11/11/2014", "idCargo": 3, "salario": 1450.0, "expediente": "noite", "idFarmacia": 3}
     ]
 }
