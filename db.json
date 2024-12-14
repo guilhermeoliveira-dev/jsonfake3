@@ -1,23 +1,232 @@
 {    
     "farmacias": [
-        {"id": 1, "cnpj": "3123123123", "nome": "Tengo-Lengo", "email": "tengo-lengo@email.com", "telefone": "4444-4444", "idFuncionario": 6},
-        {"id": 2, "cnpj": "3123123123", "nome": "Lengo-Tengo", "email": "lengo-tengo@email.com", "telefone": "5555-5555", "idFuncionario": 6},
-        {"id": 3, "cnpj": "3123123123", "nome": "Gonzaguinha", "email": "gonzaguinha@email.com", "telefone": "6266-6266", "idFuncionario": 6}
+        {"id": 1, "cnpj": "3123123123", "nome": "Tengo-Lengo", "email": "tengo-lengo@email.com", "telefone": "4444-4444"},
+        {"id": 2, "cnpj": "3123123123", "nome": "Lengo-Tengo", "email": "lengo-tengo@email.com", "telefone": "5555-5555"},
+        {"id": 3, "cnpj": "3123123123", "nome": "Gonzaguinha", "email": "gonzaguinha@email.com", "telefone": "6266-6266"}
     ],
     "funcionarios": [
-        {"id": 4, "nome": "usuario01", "email": "usuario01@email.com", "senha": "1", "cpf": "11111111111", "telefone": "1111-1111", "idEndereco": 4, "dataAdmissao": "11/11/2014", "idCargo": 1, "salario": 1050.0, "expediente": "manha", "idFarmacia": 1},
-        {"id": 5, "nome": "usuario02", "email": "usuario02@email.com", "senha": "1", "cpf": "11112111111", "telefone": "2222-2222", "idEndereco": 5, "dataAdmissao": "11/11/2014", "idCargo": 2, "salario": 2010.0, "expediente": "tarde", "idFarmacia": 2},
-        {"id": 6, "nome": "usuario03", "email": "usuario03@email.com", "senha": "1", "cpf": "11327111111", "telefone": "3333-3333", "idEndereco": 6, "dataAdmissao": "11/11/2014", "idCargo": 3, "salario": 1450.0, "expediente": "noite", "idFarmacia": 3}
+        {
+            "id": 4,
+            "nome": "usuario01",
+            "email": "usuario01@email.com",
+            "senha": "1",
+            "cpf": "11111111111",
+            "telefone": "1111-1111",
+            "endereco": {
+                "id": 4,
+                "uf": "BA",
+                "cidade": "Xique-Xique",
+                "cep": "47430-970",
+                "bairro": "Copixaba",
+                "logradouro": "R. do Cruzeiro",
+                "numero": "50",
+                "complemento": ""
+            },
+            "dataAdmissao": "11/11/2014",
+            "cargo": {
+                "id": 1,
+                "nome": "Farmacêutico"
+            },
+            "salario": 1050.0,
+            "expediente": "manha",
+            "farmacia": {
+                "id": 1,
+                "cnpj": "3123123123",
+                "nome": "Tengo-Lengo",
+                "email": "tengo-lengo@email.com",
+                "telefone": "4444-4444"
+            }
+        },
+        {
+            "id": 5,
+            "nome": "usuario02",
+            "email": "usuario02@email.com",
+            "senha": "1",
+            "cpf": "11111211111",
+            "telefone": "2222-2222",
+            "endereco": {
+                "id": 5,
+                "uf": "BA",
+                "cidade": "Xique-Xique",
+                "cep": "47430-970",
+                "bairro": "Copixaba",
+                "logradouro": "R. do Cruzeiro",
+                "numero": "124",
+                "complemento": ""
+            },
+            "dataAdmissao": "11/11/2014",
+            "cargo": {
+                "id": 2,
+                "nome": "Gerente"
+            },
+            "salario": 2010.0,
+            "expediente": "tarde",
+            "farmacia": {
+                "id": 2,
+                "cnpj": "3123123123",
+                "nome": "Lengo-Tengo",
+                "email": "lengo-tengo@email.com",
+                "telefone": "5555-5555"
+            }
+        },
+        {
+            "id": 6,
+            "nome": "usuario03",
+            "email": "usuario03@email.com",
+            "senha": "1",
+            "cpf": "11115411111",
+            "telefone": "3333-3333",
+            "endereco": {
+                "id": 6,
+                "uf": "BA",
+                "cidade": "Xique-Xique",
+                "cep": "47430-970",
+                "bairro": "Copixaba",
+                "logradouro": "R. do Cruzeiro",
+                "numero": "27",
+                "complemento": ""
+            },
+            "dataAdmissao": "11/11/2014",
+            "cargo": {
+                "id": 3,
+                "nome": "Administrador"
+            },
+            "salario": 1450.0,
+            "expediente": "noite",
+            "farmacia": {
+                "id": 3,
+                "cnpj": "3123123123",
+                "nome": "Gonzaguinha",
+                "email": "gonzaguinha@email.com",
+                "telefone": "6266-6266"
+            }
+        }
     ],
     "categorias": [
-        {"id": 1, "nome": "Medicamento", "descricao": "Medicamentos no geral.", "idCategoria": 0},
-        {"id": 2, "nome": "Suplemento Alimenticio", "descricao": "Medicamentos destinados a complementar a nutricao.", "idCategoria": 1},
-        {"id": 3, "nome": "Betabloqueadores", "descricao": "Nao sei explicar isso, acho que e calmante sei la, tirei do google.", "idCategoria": 1},
-        {"id": 4, "nome": "Racao Animal", "descricao": "Racao para pets.", "idCategoria": 0}
+        {
+            "id": 1,
+            "nome": "Medicamento",
+            "descricao": "Medicamentos no geral.",
+            "categoriaPai": null
+        },
+        {
+            "id": 2,
+            "nome": "Suplemento Alimenticio",
+            "descricao": "Medicamentos destinados a complementar a nutricao.",
+            "categoriaPai": {
+                "id": 5,
+                "nome": "Produto Alimentício",
+                "descricao": "Produtos alimentícios de forma geral.",
+                "categoriaPai": null
+            }
+        },
+        {
+            "id": 3,
+            "nome": "Betabloqueadores",
+            "descricao": "Nao sei explicar isso, acho que e calmante sei la, tirei do google.",
+            "categoriaPai": {
+                "id": 1,
+                "nome": "Medicamento",
+                "descricao": "Medicamentos no geral.",
+                "categoriaPai": null
+            }
+        },
+        {
+            "id": 4,
+            "nome": "Ração Animal",
+            "descricao": "Ração para pets.",
+            "categoriaPai": {
+                "id": 5,
+                "nome": "Produto Alimentício",
+                "descricao": "Produtos alimentícios de forma geral.",
+                "categoriaPai": null
+            }
+        },
+        {
+            "id": 5,
+            "nome": "Produto Alimentício",
+            "descricao": "Produtos alimentícios de forma geral.",
+            "categoriaPai": null
+        }
     ],
     "produtos": [
-        {"id": 1, "nome": "Omega 3", "descricao": "faz bem pra saude", "preco": 50.0, "requerLote": true, "peso": 50, "idTarja": 4, "idCategoria": 2, "nomeCategoria": "Suplemento Alimenticio"},
-        {"id": 2, "nome": "Sachê Whiskas", "descricao": "sachê de ração para gatos", "preco": 4.0, "requerLote": true, "peso": 100, "idTarja": 4, "idCategoria": 4, "nomeCategoria": "Suplemento Alimenticio"},
-        {"id": 3, "nome": "Cloridrato de Propranolol", "descricao": "Cloridrato de Propranolol 40mg Genérico Pharlab 30 Comprimidos", "preco": 8.99, "requerLote": true, "peso": 50, "idTarja": 2, "idCategoria": 3, "nomeCategoria": "Suplemento Alimenticio"}
+        {
+            "id": 1,
+            "nome": "Omega 3",
+            "descricao": "faz bem pra saude",
+            "preco": 50.0,
+            "requerLote": true,
+            "peso": 50,
+            "tarja": {
+                "id": 4,
+                "nome": "Sem Tarja",
+                "cor": "",
+                "requerReceita": false,
+                "retemReceita": false
+            },
+            "categoria": {
+                "id": 2,
+                "nome": "Suplemento Alimenticio",
+                "descricao": "Medicamentos destinados a complementar a nutricao.",
+                "categoriaPai": {
+                    "id": 5,
+                    "nome": "Produto Alimentício",
+                    "descricao": "Produtos alimentícios de forma geral.",
+                    "categoriaPai": null
+                }
+            }
+        },
+        {
+            "id": 2,
+            "nome": "Sachê Whiskas",
+            "descricao": "sachê de ração para gatos",
+            "preco": 4.0,
+            "requerLote": true,
+            "peso": 100,
+            "tarja": {
+                "id": 4,
+                "nome": "Sem Tarja",
+                "cor": "",
+                "requerReceita": false,
+                "retemReceita": false
+            },
+            "categoria": {
+                "id": 4,
+                "nome": "Ração Animal",
+                "descricao": "Ração para pets.",
+                "categoriaPai": {
+                    "id": 5,
+                    "nome": "Produto Alimentício",
+                    "descricao": "Produtos alimentícios de forma geral.",
+                    "categoriaPai": null
+                }
+            }
+        },
+        {
+            "id": 3,
+            "nome": "Cloridrato de Propranolol",
+            "descricao": "Cloridrato de Propranolol 40mg Genérico Pharlab 30 Comprimidos",
+            "preco": 8.99,
+            "requerLote": true,
+            "peso": 50,
+            "tarja": {
+                "id": 2,
+                "nome": "Vermelha com Retenção",
+                "cor": "Vermelha",
+                "requerReceita": true,
+                "retemReceita": true
+            },
+            "categoria": {
+                "id": 3,
+                "nome": "Betabloqueadores",
+                "descricao": "Nao sei explicar isso, acho que e calmante sei la, tirei do google.",
+                "categoriaPai": {
+                    "id": 1,
+                    "nome": "Medicamento",
+                    "descricao": "Medicamentos no geral.",
+                    "categoriaPai": null
+                }
+            }
+        }
     ]
 }
