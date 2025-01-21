@@ -46,7 +46,7 @@
                 "nome": "Farmacêutico"
             },
             "salario": 1050.0,
-            "expediente": "manha",
+            "expediente": "tarde",
             "farmacia": {
                 "id": 1,
                 "cnpj": "3123123123",
@@ -78,7 +78,7 @@
                 "nome": "Gerente"
             },
             "salario": 2010.0,
-            "expediente": "tarde",
+            "expediente": "noite",
             "farmacia": {
                 "id": 2,
                 "cnpj": "3123123123",
