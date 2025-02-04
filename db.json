@@ -70,5 +70,35 @@
             "id": 3,
             "nome": "Cadastrar Farmacias"
         }
+    ],
+    "tarjas": [
+        {
+            "id": 1,
+            "nome": "Vermelha sem Retenção",
+            "cor": "Vermelha",
+            "requerReceita": true,
+            "retemReceita": false
+        },
+        {
+            "id": 2,
+            "nome": "Vermelha com Retenção",
+            "cor": "Vermelha",
+            "requerReceita": true,
+            "retemReceita": true
+        },
+        {
+            "id": 3,
+            "nome": "Preta",
+            "cor": "Preta",
+            "requerReceita": true,
+            "retemReceita": true
+        },
+        {
+            "id": 4,
+            "nome": "Sem Tarja",
+            "cor": "",
+            "requerReceita": false,
+            "retemReceita": false
+        }
     ]
 }
