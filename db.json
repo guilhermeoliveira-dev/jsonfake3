@@ -56,5 +56,19 @@
                 "categoriaPai": null
             }
         }
-    ]
+    ],
+    "permissoes": [
+        {
+            "id": 1,
+            "nome": "Cadastrar Produtos"
+        },
+        {
+            "id": 2,
+            "nome": "Cadastrar Funcionarios"
+        },
+        {
+            "id": 3,
+            "nome": "Cadastrar Farmacias"
+        }
+    ],
 }
