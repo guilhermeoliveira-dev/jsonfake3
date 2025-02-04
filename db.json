@@ -1,288 +1,59 @@
 {
-    "farmacias": [
+    "categorias": [
         {
             "id": 1,
-            "cnpj": "3123123123",
-            "nome": "Farmácia 1",
-            "email": "farmacianumero1@email.com",
-            "telefone": "4444-4444",
-            "endereco": {
-                "id": 1,
-                "uf": "MG",
-                "cidade": "Juiz de Fora",
-                "cep": "36080-001",
-                "bairro": "Fábrica",
-                "logradouro": "R. Bernado Mascarenhas",
-                "numero": "1283",
-                "complemento": ""
-            }
+            "nome": "Medicamento",
+            "descricao": "Medicamentos no geral.",
+            "categoriaPai": null
         },
         {
             "id": 2,
-            "cnpj": "3123123123",
-            "nome": "Farmácia 2",
-            "email": "farmacianumero2@email.com",
-            "telefone": "5555-5555",
-            "endeco": {
-                "id": 2,
-                "uf": "MG",
-                "cidade": "Juiz de Fora",
-                "cep": "36036-900",
-                "bairro": "São Pedro",
-                "logradouro": "Rua José Lourenço Kelmer",
-                "numero": "s/n",
-                "complemento": "Campus Universitário"
+            "nome": "Suplemento Alimenticio",
+            "descricao": "Medicamentos destinados a complementar a nutricao.",
+            "categoriaPai": {
+                "id": 5,
+                "nome": "Produto Alimentício",
+                "descricao": "Produtos alimentícios de forma geral.",
+                "categoriaPai": null
             }
         },
         {
             "id": 3,
-            "cnpj": "3123123123",
-            "nome": "Farmácia 3",
-            "email": "farmacianumero3@email.com",
-            "telefone": "6266-6266",
-            "endeco": {
-                "id": 3,
-                "uf": "MG",
-                "cidade": "Juiz de Fora",
-                "cep": "36080-001",
-                "bairro": "Fábrica",
-                "logradouro": "R. Bernado Mascarenhas",
-                "numero": "1045",
-                "complemento": ""
+            "nome": "Betabloqueadores",
+            "descricao": "Nao sei explicar isso, acho que e calmante sei la, tirei do google.",
+            "categoriaPai": {
+                "id": 1,
+                "nome": "Medicamento",
+                "descricao": "Medicamentos no geral.",
+                "categoriaPai": null
             }
-        }
-    ],
-   "funcionarios": [
+        },
         {
             "id": 4,
-            "nome": "usuario01",
-            "email": "usuario01@email.com",
-            "senha": "1",
-            "cpf": "11111111111",
-            "telefone": "1111-1111",
-            "endereco": {
-                "id": 4,
-                "uf": "MG",
-                "cidade": "Juiz de Fora",
-                "cep": "36080-001",
-                "bairro": "Fábrica",
-                "logradouro": "R. Bernado Mascarenhas",
-                "numero": "223",
-                "complemento": ""
-            },
-            "dataAdmissao": "11/11/2014",
-            "cargo": {
-                "id": 1,
-                "nome": "Farmacêutico"
-            },
-            "salario": 1050.0,
-            "expediente": "manha",
-            "farmacia": {
-                "id": 1,
-                "cnpj": "3123123123",
-                "nome": "Farmácia 1",
-                "email": "farmacianumero1@email.com",
-                "telefone": "4444-4444",
-                "endereco": {
-                    "id": 1,
-                    "uf": "MG",
-                    "cidade": "Juiz de Fora",
-                    "cep": "36080-001",
-                    "bairro": "Fábrica",
-                    "logradouro": "R. Bernado Mascarenhas",
-                    "numero": "1283",
-                    "complemento": ""
-                }
+            "nome": "Ração Animal",
+            "descricao": "Ração para pets.",
+            "categoriaPai": {
+                "id": 5,
+                "nome": "Produto Alimentício",
+                "descricao": "Produtos alimentícios de forma geral.",
+                "categoriaPai": null
             }
         },
         {
             "id": 5,
-            "nome": "usuario02",
-            "email": "usuario02@email.com",
-            "senha": "1",
-            "cpf": "11111211111",
-            "telefone": "2222-2222",
-            "endereco": {
-                "id": 5,
-                "uf": "MG",
-                "cidade": "Juiz de Fora",
-                "cep": "36080-001",
-                "bairro": "Fábrica",
-                "logradouro": "R. Bernado Mascarenhas",
-                "numero": "784",
-                "complemento": ""
-            },
-            "dataAdmissao": "11/11/2014",
-            "cargo": {
-                "id": 2,
-                "nome": "Gerente"
-            },
-            "salario": 2010.0,
-            "expediente": "tarde",
-            "farmacia": {
-                "id": 2,
-                "cnpj": "3123123123",
-                "nome": "Farmácia 2",
-                "email": "farmacianumero2@email.com",
-                "telefone": "5555-5555",
-                "endeco": {
-                    "id": 2,
-                    "uf": "MG",
-                    "cidade": "Juiz de Fora",
-                    "cep": "36036-900",
-                    "bairro": "São Pedro",
-                    "logradouro": "Rua José Lourenço Kelmer",
-                    "numero": "s/n",
-                    "complemento": "Campus Universitário"
-                }
-            }
+            "nome": "Produto Alimentício",
+            "descricao": "Produtos alimentícios de forma geral.",
+            "categoriaPai": null
         },
         {
             "id": 6,
-            "nome": "usuario03",
-            "email": "usuario03@email.com",
-            "senha": "1",
-            "cpf": "11115411111",
-            "telefone": "3333-3333",
-            "endereco": {
-                "id": 6,
-                "uf": "MG",
-                "cidade": "Juiz de Fora",
-                "cep": "36080-001",
-                "bairro": "Fábrica",
-                "logradouro": "R. Bernado Mascarenhas",
-                "numero": "1789",
-                "complemento": ""
-            },
-            "dataAdmissao": "11/11/2014",
-            "cargo": {
-                "id": 3,
-                "nome": "Administrador"
-            },
-            "salario": 1450.0,
-            "expediente": "noite",
-            "farmacia": {
-                "id": 3,
-                "cnpj": "3123123123",
-                "nome": "Farmácia 3",
-                "email": "farmacianumero3@email.com",
-                "telefone": "6266-6266",
-                "endeco": {
-                    "id": 3,
-                    "uf": "MG",
-                    "cidade": "Juiz de Fora",
-                    "cep": "36080-001",
-                    "bairro": "Fábrica",
-                    "logradouro": "R. Bernado Mascarenhas",
-                    "numero": "1045",
-                    "complemento": ""
-                }
-            }
-        }
-    ],
-    "produtos": [
-        {
-            "id": 1,
-            "nome": "Omega 3",
-            "descricao": "faz bem pra saude",
-            "preco": 50.0,
-            "requerLote": true,
-            "peso": 50,
-            "tarja": {
-                "id": 4,
-                "nome": "Sem Tarja",
-                "cor": "",
-                "requerReceita": false,
-                "retemReceita": false
-            },
-            "categoria": {
-                "id": 2,
-                "nome": "Suplemento Alimenticio",
-                "descricao": "Medicamentos destinados a complementar a nutricao.",
-                "categoriaPai": {
-                    "id": 5,
-                    "nome": "Produto Alimentício",
-                    "descricao": "Produtos alimentícios de forma geral.",
-                    "categoriaPai": null
-                }
-            }
-        },
-        {
-            "id": 2,
-            "nome": "Sachê Whiskas",
-            "descricao": "sachê de ração para gatos",
-            "preco": 4.0,
-            "requerLote": true,
-            "peso": 100,
-            "tarja": {
-                "id": 4,
-                "nome": "Sem Tarja",
-                "cor": "",
-                "requerReceita": false,
-                "retemReceita": false
-            },
-            "categoria": {
-                "id": 4,
-                "nome": "Ração Animal",
-                "descricao": "Ração para pets.",
-                "categoriaPai": {
-                    "id": 5,
-                    "nome": "Produto Alimentício",
-                    "descricao": "Produtos alimentícios de forma geral.",
-                    "categoriaPai": null
-                }
-            }
-        },
-        {
-            "id": 3,
-            "nome": "Cloridrato de Propranolol",
-            "descricao": "Cloridrato de Propranolol 40mg Genérico Pharlab 30 Comprimidos",
-            "preco": 8.99,
-            "requerLote": true,
-            "peso": 50,
-            "tarja": {
-                "id": 2,
-                "nome": "Vermelha com Retenção",
-                "cor": "Vermelha",
-                "requerReceita": true,
-                "retemReceita": true
-            },
-            "categoria": {
-                "id": 3,
-                "nome": "Betabloqueadores",
-                "descricao": "Nao sei explicar isso, acho que e calmante sei la, tirei do google.",
-                "categoriaPai": {
-                    "id": 1,
-                    "nome": "Medicamento",
-                    "descricao": "Medicamentos no geral.",
-                    "categoriaPai": null
-                }
-            }
-        },
-        {
-            "id": 4,
-            "nome": "Clonazepam",
-            "descricao": "Faz bem para Convulsão, Pânico e Ansiedade",
-            "preco": 80.0,
-            "requerLote": true,
-            "peso": 60,
-            "tarja": {
-                "id": 3,
-                "nome": "Preta",
-                "cor": "Preta",
-                "requerReceita": true,
-                "retemReceita": true
-            },
-            "categoria": {
-                "id": 6,
-                "nome": "Benzodiazepínicos",
-                "descricao": "É uns remédio cabuloso.",
-                "categoriaPai": {
-                    "id": 1,
-                    "nome": "Medicamento",
-                    "descricao": "Medicamentos no geral.",
-                    "categoriaPai": null
-                }
+            "nome": "Benzodiazepínicos",
+            "descricao": "É uns remédio cabuloso.",
+            "categoriaPai": {
+                "id": 1,
+                "nome": "Medicamento",
+                "descricao": "Medicamentos no geral.",
+                "categoriaPai": null
             }
         }
     ]
