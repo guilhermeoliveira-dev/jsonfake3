@@ -285,63 +285,7 @@
                 }
             }
         }
-    ],
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Medicamento",
-            "descricao": "Medicamentos no geral.",
-            "categoriaPai": null
-        },
-        {
-            "id": 2,
-            "nome": "Suplemento Alimenticio",
-            "descricao": "Medicamentos destinados a complementar a nutricao.",
-            "categoriaPai": {
-                "id": 5,
-                "nome": "Produto Alimentício",
-                "descricao": "Produtos alimentícios de forma geral.",
-                "categoriaPai": null
-            }
-        },
-        {
-            "id": 3,
-            "nome": "Betabloqueadores",
-            "descricao": "Nao sei explicar isso, acho que e calmante sei la, tirei do google.",
-            "categoriaPai": {
-                "id": 1,
-                "nome": "Medicamento",
-                "descricao": "Medicamentos no geral.",
-                "categoriaPai": null
-            }
-        },
-        {
-            "id": 4,
-            "nome": "Ração Animal",
-            "descricao": "Ração para pets.",
-            "categoriaPai": {
-                "id": 5,
-                "nome": "Produto Alimentício",
-                "descricao": "Produtos alimentícios de forma geral.",
-                "categoriaPai": null
-            }
-        },
-        {
-            "id": 5,
-            "nome": "Produto Alimentício",
-            "descricao": "Produtos alimentícios de forma geral.",
-            "categoriaPai": null
-        },
-        {
-            "id": 6,
-            "nome": "Benzodiazepínicos",
-            "descricao": "É uns remédio cabuloso.",
-            "categoriaPai": {
-                "id": 1,
-                "nome": "Medicamento",
-                "descricao": "Medicamentos no geral.",
-                "categoriaPai": null
-            }
-        }
+    ]
+    
     ]
 }
