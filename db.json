@@ -3,26 +3,56 @@
         {
             "id": 1,
             "cnpj": "3123123123",
-            "nome": "Tengo-Lengo",
-            "email": "tengo-lengo@email.com",
-            "telefone": "4444-4444"
+            "nome": "Farmácia 1",
+            "email": "farmacianumero1@email.com",
+            "telefone": "4444-4444",
+            "endereco": {
+                "id": 1,
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36080-001",
+                "bairro": "Fábrica",
+                "logradouro": "R. Bernado Mascarenhas",
+                "numero": "1283",
+                "complemento": ""
+            }
         },
         {
             "id": 2,
             "cnpj": "3123123123",
-            "nome": "Lengo-Tengo",
-            "email": "lengo-tengo@email.com",
-            "telefone": "5555-5555"
+            "nome": "Farmácia 2",
+            "email": "farmacianumero2@email.com",
+            "telefone": "5555-5555",
+            "endeco": {
+                "id": 2,
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36036-900",
+                "bairro": "São Pedro",
+                "logradouro": "Rua José Lourenço Kelmer",
+                "numero": "s/n",
+                "complemento": "Campus Universitário"
+            }
         },
         {
             "id": 3,
             "cnpj": "3123123123",
-            "nome": "Gonzaguinha",
-            "email": "gonzaguinha@email.com",
-            "telefone": "6266-6266"
+            "nome": "Farmácia 3",
+            "email": "farmacianumero3@email.com",
+            "telefone": "6266-6266",
+            "endeco": {
+                "id": 3,
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36080-001",
+                "bairro": "Fábrica",
+                "logradouro": "R. Bernado Mascarenhas",
+                "numero": "1045",
+                "complemento": ""
+            }
         }
     ],
-    "funcionarios": [
+   "funcionarios": [
         {
             "id": 4,
             "nome": "usuario01",
@@ -32,12 +62,12 @@
             "telefone": "1111-1111",
             "endereco": {
                 "id": 4,
-                "uf": "BA",
-                "cidade": "Xique-Xique",
-                "cep": "47430-970",
-                "bairro": "Copixaba",
-                "logradouro": "R. do Cruzeiro",
-                "numero": "50",
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36080-001",
+                "bairro": "Fábrica",
+                "logradouro": "R. Bernado Mascarenhas",
+                "numero": "223",
                 "complemento": ""
             },
             "dataAdmissao": "11/11/2014",
@@ -46,13 +76,23 @@
                 "nome": "Farmacêutico"
             },
             "salario": 1050.0,
-            "expediente": "tarde",
+            "expediente": "manha",
             "farmacia": {
                 "id": 1,
                 "cnpj": "3123123123",
-                "nome": "Tengo-Lengo",
-                "email": "tengo-lengo@email.com",
-                "telefone": "4444-4444"
+                "nome": "Farmácia 1",
+                "email": "farmacianumero1@email.com",
+                "telefone": "4444-4444",
+                "endereco": {
+                    "id": 1,
+                    "uf": "MG",
+                    "cidade": "Juiz de Fora",
+                    "cep": "36080-001",
+                    "bairro": "Fábrica",
+                    "logradouro": "R. Bernado Mascarenhas",
+                    "numero": "1283",
+                    "complemento": ""
+                }
             }
         },
         {
@@ -64,12 +104,12 @@
             "telefone": "2222-2222",
             "endereco": {
                 "id": 5,
-                "uf": "BA",
-                "cidade": "Xique-Xique",
-                "cep": "47430-970",
-                "bairro": "Copixaba",
-                "logradouro": "R. do Cruzeiro",
-                "numero": "124",
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36080-001",
+                "bairro": "Fábrica",
+                "logradouro": "R. Bernado Mascarenhas",
+                "numero": "784",
                 "complemento": ""
             },
             "dataAdmissao": "11/11/2014",
@@ -78,13 +118,23 @@
                 "nome": "Gerente"
             },
             "salario": 2010.0,
-            "expediente": "noite",
+            "expediente": "tarde",
             "farmacia": {
                 "id": 2,
                 "cnpj": "3123123123",
-                "nome": "Lengo-Tengo",
-                "email": "lengo-tengo@email.com",
-                "telefone": "5555-5555"
+                "nome": "Farmácia 2",
+                "email": "farmacianumero2@email.com",
+                "telefone": "5555-5555",
+                "endeco": {
+                    "id": 2,
+                    "uf": "MG",
+                    "cidade": "Juiz de Fora",
+                    "cep": "36036-900",
+                    "bairro": "São Pedro",
+                    "logradouro": "Rua José Lourenço Kelmer",
+                    "numero": "s/n",
+                    "complemento": "Campus Universitário"
+                }
             }
         },
         {
@@ -96,12 +146,12 @@
             "telefone": "3333-3333",
             "endereco": {
                 "id": 6,
-                "uf": "BA",
-                "cidade": "Xique-Xique",
-                "cep": "47430-970",
-                "bairro": "Copixaba",
-                "logradouro": "R. do Cruzeiro",
-                "numero": "27",
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36080-001",
+                "bairro": "Fábrica",
+                "logradouro": "R. Bernado Mascarenhas",
+                "numero": "1789",
                 "complemento": ""
             },
             "dataAdmissao": "11/11/2014",
@@ -114,9 +164,19 @@
             "farmacia": {
                 "id": 3,
                 "cnpj": "3123123123",
-                "nome": "Gonzaguinha",
-                "email": "gonzaguinha@email.com",
-                "telefone": "6266-6266"
+                "nome": "Farmácia 3",
+                "email": "farmacianumero3@email.com",
+                "telefone": "6266-6266",
+                "endeco": {
+                    "id": 3,
+                    "uf": "MG",
+                    "cidade": "Juiz de Fora",
+                    "cep": "36080-001",
+                    "bairro": "Fábrica",
+                    "logradouro": "R. Bernado Mascarenhas",
+                    "numero": "1045",
+                    "complemento": ""
+                }
             }
         }
     ],
